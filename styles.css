@@ -1,0 +1,256 @@
+body {
+    margin: 0px;
+}
+html {
+scroll-behavior: smooth;
+}
+
+#parent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#child1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    flex-direction: column;
+}
+
+#child2 {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: #8ea69b;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#innerchild {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contentContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.header-option {
+    display: flex;
+    margin-right: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.header-option:hover {
+    border-bottom: 1px;
+    border-bottom-style: solid;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#name {
+    font-size: 35px;
+    width: 60%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#subname {
+    display: flex;
+    font-size: 20px;
+    width: 60%;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 80px;
+}
+
+.info-text {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.info-text-bold {
+    font-weight: bold;
+
+}
+
+.info-social-link {
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+#cv-text {
+    width: 60%;
+    cursor: pointer;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+}
+
+#title {
+    display: flex;
+    width: 50%;
+    padding-top: 50px;
+    align-items: center;
+}
+
+#title>h1 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 174;
+    font-style: normal;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#title>hr {
+    height: 1px;
+    width: 100%;
+}
+
+#aboutContent {
+    display: flex;
+    width: 60%;
+    padding-top: 50px;
+    font-size: 19px;
+    flex-direction: column;
+}
+
+#aboutContent>p {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#CV {
+    display: flex;
+    align-items: center;
+}
+
+#titleCV {
+    display: flex;
+    width: 60%;
+    padding-top: 50px;
+    align-items: center;
+}
+
+#titleCV>h1 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 174;
+    font-style: normal;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#titleCV>hr {
+    height: 1px;
+    width: 25%;
+}
+
+#jobs{
+    display: flex;
+    width: 60%;
+    flex-direction: column; 
+    height:55%;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+.year{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.jobtitle{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.company{
+    font-style: italic;
+}
+#Education {
+    display: flex;
+    align-items: center;
+}
+
+#titleEdu {
+    display: flex;
+    width: 60%;
+    padding-top: 50px;
+    align-items: center;
+}
+
+#titleEdu>h1 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 174;
+    font-style: normal;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#titleEdu>hr {
+    height: 1px;
+    width: 25%;
+}
+
+#schools{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 55%;
+    padding-top: 50px;
+}
